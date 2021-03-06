@@ -27,10 +27,10 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Nate Gay 🚀"
+    title = "Nate Gay"
     subtitle = ""
     keywords = ""
-    copyright = " "
+    copyright = "Think and do."
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"

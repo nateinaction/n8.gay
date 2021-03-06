@@ -21,11 +21,13 @@
 
 <!-- Icons -->
 <link
-  rel="apple-touch-icon-precomposed"
-  sizes="144x144"
-  href="{{ "img/apple-touch-icon-144-precomposed.png" | absURL }}"
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="{{ "img/apple-touch-icon.png" | absURL }}"
 />
-<link rel="shortcut icon" href="{{ "img/favicon.png" | absURL }}" />
+<link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ "img/favicon-32x32.png" | absURL }}">
+<link rel="shortcut icon" type="image/png" sizes="16x16" href="{{ "img/favicon-16x16.png" | absURL }}">
+<link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
 
 <!-- Twitter Card -->
 {{ template "_internal/twitter_cards.html" . }}
