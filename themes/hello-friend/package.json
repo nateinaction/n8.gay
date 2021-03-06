@@ -32,7 +32,6 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^6.1.0",
     "html-webpack-plugin": "^4.4.1",
-    "husky": "^4.2.5",
     "mini-css-extract-plugin": "^0.11.0",
     "postcss": "^7.0.0",
     "postcss-browser-reporter": "^0.6.0",
@@ -53,10 +52,5 @@
     "url-loader": "^4.1.0",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn build && git add . && git commit --amend --no-edit"
-    }
   }
 }
