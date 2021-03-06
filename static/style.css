@@ -1,8 +1,5 @@
-.logo__mark {
-    display: none;
-}
-
-.logo__cursor {
-    display: none;
-    background: rgb(60, 153, 248);
+.menu {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
 }
