@@ -2,7 +2,7 @@
 title: "About Nate Gay"
 ---
 
-Nate is a senior software engineer at WP Engine, where he builds technology that connects people together. As a board member for [Age Equity Alliance](https://ageequityalliance.org/), he cares deeply about issues of equity and strives to empower organizations to value and create diverse teams.
+Nate is a Senior Software Engineer at WP Engine, where he builds technology that connects people together. As a board member for [Age Equity Alliance](https://ageequityalliance.org/), he cares deeply about issues of equity and strives to empower organizations to value and create diverse teams.
 
 At work, Nate builds scalable systems using kubernetes and golang. He has lead three winning hackathon teams and has been recognized as a WP Engine Culture Award winner for contributions in leadership and technology.
 
