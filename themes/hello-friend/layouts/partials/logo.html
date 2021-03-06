@@ -6,6 +6,7 @@
   {{ if $.Site.Params.Logo.path }}
     <img src="{{ $.Site.Params.Logo.path }}" alt="{{ $.Site.Params.Logo.alt }}" />
     {{ else }}
+    <img src="{{ "img/favicon.svg" | absURL }}" alt="{{ $.Site.Params.Logo.alt }}" />
     <span class="logo__text">{{ with $.Site.Params.Logo.logoText }}{{ . }}{{ else }}hello friend{{ end }}</span>
   {{ end }}
 </a>
