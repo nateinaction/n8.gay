@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        City of Austin Quick District Lookup ::
+        Nate Gay
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="When my partner was a Park Ranger, I enjoyed working with the Ranger team to develop a random Austin park picker. The park picker allowed the rangers to easily pick from Austin&amp;rsquo;s 300&#43; parks during their daily patrols. We have also advertised this park picker to the Austin Bark Rangers volunteers as a way to help them find new places to explore with their pets.
+Now, my partner works for Austin Animal Services and fields calls from the public about interactions with Coyotes and other wild animals."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/blog/2021/08/city-of-austin-quick-district-lookup/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+<link rel="stylesheet" href="/style.css" />
+
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/img/apple-touch-icon.png"
+/>
+<link rel="shortcut icon" href="/img/favicon.svg">
+<link rel="alternate icon" href="/img/favicon.svg">
+<link rel=”mask-icon” href="/img/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="City of Austin Quick District Lookup"/>
+<meta name="twitter:description" content="Helping Austin civil servants and leaders perform their jobs more efficiently"/>
+
+
+
+<meta property="og:title" content="City of Austin Quick District Lookup" />
+<meta property="og:description" content="Helping Austin civil servants and leaders perform their jobs more efficiently" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/2021/08/city-of-austin-quick-district-lookup/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-08-15T14:41:19-06:00" />
+<meta property="article:modified_time" content="2021-08-15T14:41:19-06:00" /><meta property="og:site_name" content="Nate Gay" />
+
+
+
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'unsafe-inline'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' ws://*; frame-src www.youtube-nocookie.com; child-src 'none'">
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <img src="/img/favicon.svg" alt="Rocket" />
+    <span class="logo__text">Nate Gay</span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/cv">CV</a></li>
+        
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/cv">CV</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">City of Austin Quick District Lookup</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2021-08-15
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <p>When my partner was a Park Ranger, I enjoyed working with the Ranger team to develop a <a href="https://github.com/nateinaction/austin-texas-parks">random Austin park picker</a>. The park picker allowed the rangers to easily pick from Austin&rsquo;s 300+ parks during their daily patrols. We have also advertised this park picker to the <a href="http://www.austintexas.gov/page/bark-rangers">Austin Bark Rangers</a> volunteers as a way to help them find new places to explore with their pets.</p>
+<p>Now, my partner works for Austin Animal Services and fields calls from the public about interactions with Coyotes and other wild animals. Part of her job is to provide Austin City Council with the number and types of calls received from their district. Unfortunately, the call database does not correctly tag the district of the caller and only provides partial data about the caller&rsquo;s address. For example, only the street number, name, and zipcode are provided.</p>
+<p>After a particularly frustrating day of looking up each partial address in the City&rsquo;s GIS database and manually entering the correct district into the call database, my partner asked for help automating this process. Lucky for me, the City has a decent GIS API that does much of the heavy lifting. The City&rsquo;s API will search for a partial address and return a list of possible matches with <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">Levenshtein distance rankings</a>. I can then use the best matching address to look up its district.</p>
+<p>I&rsquo;m pretty happy with the resulting application, which looks up addresses at a rate of about 6 per second, much faster than manual entry. If the dataset grows larger, we could improve the lookup speed by parallelizing the API requests. Of the 6,049 addresses in the initial dataset, this tool was able to find districts for all but 280 of them, above a 95% hit rate.</p>
+<p>Github: <a href="https://github.com/nateinaction/coa-district-lookup">coa-district-lookup</a></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="/blog/2021/08/hue-control-water-reduction/">
+                  <span class="button__text">Reducing Water Use</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner"><div class="copyright copyright--user">
+    <a href="/attributions/">Attributions</a>
+</div>
+
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+
+Think and do.
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
