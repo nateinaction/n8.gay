@@ -1,8 +1,6 @@
 <footer class="footer">
   <div class="footer__inner">
-    {{ if $.Site.Copyright }}
-      <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
-    {{ end }}
+    {{- partial "prepended_footer.html" . }}
   </div>
 </footer>
 

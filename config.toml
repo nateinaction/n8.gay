@@ -6,16 +6,13 @@ paginate = 5
 [params]
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
-
-  # "light" or "dark"
-  defaultTheme = "dark"
+  contentTypeName = "blog"
 
   # if you set this to 0, only submenu trigger will be visible
   # showMenuItems = 2
 
   # Show reading time in minutes for posts
-  showReadingTime = true
+  # showReadingTime = true
 
   # Show table of contents at the top of your posts (defaults to false)
   # Alternatively, add this param to post front matter for specific posts
@@ -30,7 +27,6 @@ paginate = 5
     title = "Nate Gay"
     subtitle = ""
     keywords = ""
-    copyright = "Think and do."
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -51,4 +47,8 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "cv"
+        name = "CV"
+        url = "/cv"
 

@@ -2,7 +2,7 @@
 title: "Attributions"
 ---
 
-Thank you to all the creators who made this site possible. If I have underattributed or misattributed please open a [github issue](https://github.com/nateinaction/n8.gay/issues).
+Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a [github issue](https://github.com/nateinaction/n8.gay/issues).
 
 This site is powered by [Hugo](https://gohugo.io).
 

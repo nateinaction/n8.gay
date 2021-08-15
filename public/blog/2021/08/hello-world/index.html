@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Reducing Water Use ::
+        Nate Gay
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Using code to interact with the physical world is a new goal for me. I recently watched the Everyday Astronaut Starbase tour with Elon Musk. During the Tour, Elon talked about how designing solutions is one of the easiest steps in developing a product. The more challenging step is to build the manufacturing systems to make the product. By writing code that interacts with the physical world, I&amp;rsquo;m taking a step in that direction."
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/blog/2021/08/hello-world/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+<link rel="stylesheet" href="/style.css" />
+
+
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/img/apple-touch-icon.png"
+/>
+<link rel="shortcut icon" href="/img/favicon.svg">
+<link rel="alternate icon" href="/img/favicon.svg">
+<link rel=”mask-icon” href="/img/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Reducing Water Use"/>
+<meta name="twitter:description" content="Preserve our natural resources, one drop at a time"/>
+
+
+
+<meta property="og:title" content="Reducing Water Use" />
+<meta property="og:description" content="Preserve our natural resources, one drop at a time" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/2021/08/hello-world/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-08-15T04:41:19-06:00" />
+<meta property="article:modified_time" content="2021-08-15T04:41:19-06:00" /><meta property="og:site_name" content="Nate Gay" />
+
+
+
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'unsafe-inline'; script-src 'self' ajax.cloudflare.com static.cloudflareinsights.com; connect-src 'self' ws://*; frame-src www.youtube-nocookie.com; child-src 'none'">
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <img src="/img/favicon.svg" alt="Rocket" />
+    <span class="logo__text">Nate Gay</span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/cv">CV</a></li>
+        
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/cv">CV</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Reducing Water Use</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2021-08-15
+        </span>
+
+        
+          
+        
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <p>Using code to interact with the physical world is a new goal for me. I recently watched the <a href="https://www.youtube.com/watch?v=t705r8ICkRw">Everyday Astronaut Starbase tour with Elon Musk</a>. During the Tour, Elon talked about how designing solutions is one of the easiest steps in developing a product. The more challenging step is to build the manufacturing systems to make the product. By writing code that interacts with the physical world, I&rsquo;m taking a step in that direction.</p>
+<p>In 2019 I wrote a Python application that monitors the Hue lights installed in my apartment&rsquo;s bathrooms. If the bathroom light is on for longer than 10 minutes, the light will blink to alert the shower taker. By alerting the shower taker to how long they&rsquo;re spending in the bathroom, they can try to take shorter showers and reduce their water use.</p>
+<p>I have pondered more direct or accurate ways to reduce water use. I found my favorite way to reduce the amount of water used by the shower in a British hostel. This shower used a spring-loaded engagement button to turn the water on. The water would turn on when the button was pressed and slowly release itself, which would turn off the water after about 3 minutes. I enjoyed the physicality of the interaction with the button; it gave me a sense of how much water I had used.</p>
+<p>I cannot modify the fixtures in my apartment, so I&rsquo;ve thought of other options to monitor water use. One of the most accurate would be to use vibration sensors to detect when the water turns on. Monitoring vibrations in the showerhead would give me a more precise measurement of water use. To make this possible, I&rsquo;d have to purchase more sensors and microcontrollers to complete the project.</p>
+<p>Instead, I&rsquo;m opting for a simpler solution with the Hue lights. My partner made me turn off the original Python application because of how annoying the alert mode was. Hue has two alert modes for its lights: a single blink or blinking for 15 seconds. I found that humans could easily miss a single blink if it aligned with their natural eye blinking, so I felt that the longer strobing was necessary. However, 15 seconds of blinking every few minutes is overkill and renders the shower taker utterly annoyed.</p>
+<p>I&rsquo;m pretty happy with my rewrite of the Python application into Golang. I can use Go&rsquo;s concurrency patterns to monitor more aspects of the lights and act on them simultaneously. In the original application, I could only monitor how long a light was on for and alert when it was too long. With the rewrite, I can also monitor how long a light is alerting and turn it off after only a few seconds. Hopefully, this will help reduce water use and improve the user experience.</p>
+<p>Github: <a href="https://github.com/nateinaction/hue-control">hue-control</a></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="/blog/2021/03/age-equity-alliance-100-in-100/">
+                  <span class="button__text">Age Equity Alliance 100 in 100</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner"><div class="copyright copyright--user">
+    <a href="/attributions/">Attributions</a>
+</div>
+
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+
+Think and do.
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

@@ -8,18 +8,37 @@
     <link>/</link>
     <description>Recent content on Nate Gay</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Think and do.</copyright>
-    <lastBuildDate>Sat, 06 Mar 2021 13:41:19 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 15 Aug 2021 04:41:19 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Reducing Water Use</title>
+      <link>/blog/2021/08/hello-world/</link>
+      <pubDate>Sun, 15 Aug 2021 04:41:19 -0600</pubDate>
+      
+      <guid>/blog/2021/08/hello-world/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Preserve our natural resources, one drop at a time
+          
+        
+        </description>
+    </item>
+    
+    <item>
       <title>Age Equity Alliance 100 in 100</title>
-      <link>/posts/age-equity-alliance-100-in-100/</link>
+      <link>/blog/2021/03/age-equity-alliance-100-in-100/</link>
       <pubDate>Sat, 06 Mar 2021 13:41:19 -0600</pubDate>
       
-      <guid>/posts/age-equity-alliance-100-in-100/</guid>
+      <guid>/blog/2021/03/age-equity-alliance-100-in-100/</guid>
       <description>
         
           
@@ -36,10 +55,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>/posts/hello-world/</link>
+      <link>/blog/2021/03/hello-world/</link>
       <pubDate>Sat, 06 Mar 2021 04:41:19 -0600</pubDate>
       
-      <guid>/posts/hello-world/</guid>
+      <guid>/blog/2021/03/hello-world/</guid>
       <description>
         
           
@@ -89,10 +108,32 @@ At work, Nate builds scalable systems using kubernetes and golang. He has lead t
         
         
         
-          Thank you to all the creators who made this site possible. If I have underattributed or misattributed please open a github issue.
+          Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a github issue.
 This site is powered by Hugo.
 The theme is based off of hello-friend by panr.
 The rocket logo was created by the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Nate Gay</title>
+      <link>/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Senior Software Engineer Awards 2020 - Biggest Dreamer, Hackathon, WP Engine Lead a team that created an immensly scalable Kubernetes backed hosting platform with one million WordPress websites. Each website was fully functional and cost a fraction of a penny to operate.
+2019 - Culture Award, WP Engine For contributions in leadership and technology.
+2019 - Best in Show, Hackathon, WP Engine Lead a team that produced a browser based shell environment allowing effortless SSH access to administer customer websites.
           
         
         </description>

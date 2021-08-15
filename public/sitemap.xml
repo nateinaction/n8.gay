@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/age-equity-alliance-100-in-100/</loc>
-    <lastmod>2021-03-06T13:41:19-06:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2021-08-15T04:41:19-06:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2021-08-15T04:41:19-06:00</lastmod>
+  </url><url>
+    <loc>/blog/2021/08/hello-world/</loc>
+    <lastmod>2021-08-15T04:41:19-06:00</lastmod>
+  </url><url>
+    <loc>/blog/2021/03/age-equity-alliance-100-in-100/</loc>
     <lastmod>2021-03-06T13:41:19-06:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2021-03-06T13:41:19-06:00</lastmod>
-  </url><url>
-    <loc>/posts/hello-world/</loc>
+    <loc>/blog/2021/03/hello-world/</loc>
     <lastmod>2021-03-06T04:41:19-06:00</lastmod>
   </url><url>
     <loc>/about/</loc>
@@ -19,6 +22,8 @@
     <loc>/attributions/</loc>
   </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/cv/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url>
