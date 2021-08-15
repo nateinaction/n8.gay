@@ -7,7 +7,7 @@ description: "Preserve our natural resources, one drop at a time"
 
 Using code to interact with the physical world is a new goal for me. I recently watched the [Everyday Astronaut Starbase tour with Elon Musk](https://www.youtube.com/watch?v=t705r8ICkRw). During the Tour, Elon talked about how designing solutions is one of the easiest steps in developing a product. The more challenging step is to build the manufacturing systems to make the product. By writing code that interacts with the physical world, I'm taking a step in that direction.
 
-In 2019 I wrote a Python application that monitors the Hue lights installed in my apartment's bathrooms. If the bathroom light is on for longer than 10 minutes, the light will blink to alert the shower taker. By alerting the shower taker to how long they're spending in the bathroom, they can try to take shorter showers and reduce their water use.
+In 2019 I wrote a Python application that monitors the Hue lights installed in my apartment's bathrooms. If the bathroom light is on for longer than 10 minutes, the light will blink to alert the bathroom user. By alerting the user to how long they're spending in the bathroom, they can try to take shorter showers and reduce their water use.
 
 I have pondered more direct or accurate ways to reduce water use. I found my favorite way to reduce the amount of water used by the shower in a British hostel. This shower used a spring-loaded engagement button to turn the water on. The water would turn on when the button was pressed and slowly release itself, which would turn off the water after about 3 minutes. I enjoyed the physicality of the interaction with the button; it gave me a sense of how much water I had used.
 
