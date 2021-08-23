@@ -5,7 +5,7 @@ draft: false
 description: "Simple declarative personal Kubernetes cluster"
 ---
 
-I use Kubernetes to deploy applications at work and I love how simple it is to use. Instead of paying Google or Amazon for a cluster, I'm repurposing a few Raspberrry Pi 4's that I already own to run a Kubernetes cluster. This is my first forray into running NixOS and I am absolutely floored with how easy and repeatable it is to set up a Kubernetes cluster. It worked for me and it will work for you.
+I use Kubernetes to deploy applications at work, and I love how simple it is to use. Instead of paying Google or Amazon for a cluster, I'm repurposing a few Raspberry Pi 4's that I already own to run a Kubernetes cluster. This is my first foray into running NixOS. I am floored with how easy and repeatable it is to set up a Kubernetes cluster. It worked for me, and it will work for you.
 
 If you haven't installed NixOS on your Raspberry Pi 4 yet, [follow the official docs](https://nix.dev/tutorials/installing-nixos-on-a-raspberry-pi) to get started.
 
@@ -81,7 +81,7 @@ in {
 
 After adding this config to your Pi, just run `nixos-rebuild boot; reboot` to apply it.
 
-At this point, K3s should be running and you'll be able to use `kubectl` to interact with your cluster. `k3s kubectl cluster-info` should return something like this:
+At this point, K3s should be running, and you'll be able to use `kubectl` to interact with your cluster. `k3s kubectl cluster-info` should return something like this:
 ```
 Kubernetes control plane is running at https://127.0.0.1:6443
 CoreDNS is running at https://127.0.0.1:6443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
@@ -113,11 +113,11 @@ boot.kernelParams = [
 ];
 ```
 
-When I first started k3s I noticed that the service wasn't starting. Using `journalctl -xe` I saw the following error:
+When I first installed k3s I noticed that the service wasn't starting. Using `journalctl -xe`, I saw the following error:
 ```
 Aug 22 17:25:29 rpi4-nixos-0 k3s[56281]: time="2021-08-22T17:25:29.842551411Z" level=fatal msg="failed to find memory cgroup (v2)
 ```
-I found this suggestion on this [Github issue](https://github.com/k3s-io/k3s/issues/2067#issuecomment-664048424) which lead me to add the kernal parameters above. Now k3s starts without issue.
+I found this suggestion on this [Github issue](https://github.com/k3s-io/k3s/issues/2067#issuecomment-664048424) which lead me to add the kernel parameters above. Now, k3s starts without issue.
 
 ## Adding additional nodes (optional)
 
@@ -201,7 +201,7 @@ Just like before, run `nixos-rebuild boot; reboot` to apply the config.
 
 ## Interacting with your cluster from your local machine
 
-You'll need to add your cluster's config to your `~/.kube/config` file to be able to talk to it from your local machine. I haven't found a great way to do this yet but here's the method I used. Please [open an issue or pr](https://github.com/nateinaction/n8.gay/issues) if you have a better way.
+You'll need to add your cluster's config to your `~/.kube/config` file to be able to talk to it from your local machine. I haven't found a great way to do this yet, but here's the method I used. Please [open an issue or pr](https://github.com/nateinaction/n8.gay/issues) if you have a better way.
 
 On your control node, extract the kubernetes config from k3s and modify some of the values like IP and name:
 

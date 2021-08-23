@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="I use Kubernetes to deploy applications at work and I love how simple it is to use. Instead of paying Google or Amazon for a cluster, I&amp;rsquo;m repurposing a few Raspberrry Pi 4&amp;rsquo;s that I already own to run a Kubernetes cluster. This is my first forray into running NixOS and I am absolutely floored with how easy and repeatable it is to set up a Kubernetes cluster. It worked for me and it will work for you."
+  content="I use Kubernetes to deploy applications at work, and I love how simple it is to use. Instead of paying Google or Amazon for a cluster, I&amp;rsquo;m repurposing a few Raspberry Pi 4&amp;rsquo;s that I already own to run a Kubernetes cluster. This is my first foray into running NixOS. I am floored with how easy and repeatable it is to set up a Kubernetes cluster. It worked for me, and it will work for you."
 />
 <meta
   name="keywords"
@@ -147,7 +147,7 @@
 
     <div class="post-content">
       
-      <p>I use Kubernetes to deploy applications at work and I love how simple it is to use. Instead of paying Google or Amazon for a cluster, I&rsquo;m repurposing a few Raspberrry Pi 4&rsquo;s that I already own to run a Kubernetes cluster. This is my first forray into running NixOS and I am absolutely floored with how easy and repeatable it is to set up a Kubernetes cluster. It worked for me and it will work for you.</p>
+      <p>I use Kubernetes to deploy applications at work, and I love how simple it is to use. Instead of paying Google or Amazon for a cluster, I&rsquo;m repurposing a few Raspberry Pi 4&rsquo;s that I already own to run a Kubernetes cluster. This is my first foray into running NixOS. I am floored with how easy and repeatable it is to set up a Kubernetes cluster. It worked for me, and it will work for you.</p>
 <p>If you haven&rsquo;t installed NixOS on your Raspberry Pi 4 yet, <a href="https://nix.dev/tutorials/installing-nixos-on-a-raspberry-pi">follow the official docs</a> to get started.</p>
 <h2 id="single-node-cluster">Single node cluster</h2>
 <p>If you only have one Pi at your disposal, we can easily create a single node cluster using K3s.</p>
@@ -215,7 +215,7 @@ in {
   };
 }
 </code></pre><p>After adding this config to your Pi, just run <code>nixos-rebuild boot; reboot</code> to apply it.</p>
-<p>At this point, K3s should be running and you&rsquo;ll be able to use <code>kubectl</code> to interact with your cluster. <code>k3s kubectl cluster-info</code> should return something like this:</p>
+<p>At this point, K3s should be running, and you&rsquo;ll be able to use <code>kubectl</code> to interact with your cluster. <code>k3s kubectl cluster-info</code> should return something like this:</p>
 <pre><code>Kubernetes control plane is running at https://127.0.0.1:6443
 CoreDNS is running at https://127.0.0.1:6443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 Metrics-server is running at https://127.0.0.1:6443/api/v1/namespaces/kube-system/services/https:metrics-server:/proxy
@@ -233,9 +233,9 @@ Metrics-server is running at https://127.0.0.1:6443/api/v1/namespaces/kube-syste
   &quot;cgroup_memory=1&quot;
   &quot;cgroup_enable=memory&quot;
 ];
-</code></pre><p>When I first started k3s I noticed that the service wasn&rsquo;t starting. Using <code>journalctl -xe</code> I saw the following error:</p>
+</code></pre><p>When I first installed k3s I noticed that the service wasn&rsquo;t starting. Using <code>journalctl -xe</code>, I saw the following error:</p>
 <pre><code>Aug 22 17:25:29 rpi4-nixos-0 k3s[56281]: time=&quot;2021-08-22T17:25:29.842551411Z&quot; level=fatal msg=&quot;failed to find memory cgroup (v2)
-</code></pre><p>I found this suggestion on this <a href="https://github.com/k3s-io/k3s/issues/2067#issuecomment-664048424">Github issue</a> which lead me to add the kernal parameters above. Now k3s starts without issue.</p>
+</code></pre><p>I found this suggestion on this <a href="https://github.com/k3s-io/k3s/issues/2067#issuecomment-664048424">Github issue</a> which lead me to add the kernel parameters above. Now, k3s starts without issue.</p>
 <h2 id="adding-additional-nodes-optional">Adding additional nodes (optional)</h2>
 <p>If you have more than one Pi laying around, add the following config to them and repeat as many times as necessary to build out all the nodes for your cluster. You can find the API token by running the following on your control node: <code>cat /var/lib/rancher/k3s/server/token</code>.</p>
 <pre><code>{ config, pkgs, lib, ... }:
@@ -311,7 +311,7 @@ in {
 
 </code></pre><p>Just like before, run <code>nixos-rebuild boot; reboot</code> to apply the config.</p>
 <h2 id="interacting-with-your-cluster-from-your-local-machine">Interacting with your cluster from your local machine</h2>
-<p>You&rsquo;ll need to add your cluster&rsquo;s config to your <code>~/.kube/config</code> file to be able to talk to it from your local machine. I haven&rsquo;t found a great way to do this yet but here&rsquo;s the method I used. Please <a href="https://github.com/nateinaction/n8.gay/issues">open an issue or pr</a> if you have a better way.</p>
+<p>You&rsquo;ll need to add your cluster&rsquo;s config to your <code>~/.kube/config</code> file to be able to talk to it from your local machine. I haven&rsquo;t found a great way to do this yet, but here&rsquo;s the method I used. Please <a href="https://github.com/nateinaction/n8.gay/issues">open an issue or pr</a> if you have a better way.</p>
 <p>On your control node, extract the kubernetes config from k3s and modify some of the values like IP and name:</p>
 <pre><code>k3s kubectl config view --flatten --minify | sed 's/127\.0\.0\.1/YOUR\.K8S\.CONTROL\.IP/' | sed 's/default/YOUR_CLUSTER_NAME/'
 </code></pre><p>Then copy the entries under <code>clusters</code>, <code>users</code>, and <code>contexts</code> to your local machine&rsquo;s <code>~/.kube/config</code> file.</p>
