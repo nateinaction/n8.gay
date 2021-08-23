@@ -8,10 +8,30 @@
     <link>/blog/</link>
     <description>Recent content in Blogs on Nate Gay</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 Aug 2021 14:41:19 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 22 Aug 2021 12:41:19 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setting up Kubernetes on a Raspberry Pi 4 with NixOS</title>
+      <link>/blog/2021/08/raspberrypi-4-nixos-kubernetes/</link>
+      <pubDate>Sun, 22 Aug 2021 12:41:19 -0600</pubDate>
+      
+      <guid>/blog/2021/08/raspberrypi-4-nixos-kubernetes/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Simple declarative personal Kubernetes cluster
+          
+        
+        </description>
+    </item>
     
     <item>
       <title>City of Austin Quick District Lookup</title>
