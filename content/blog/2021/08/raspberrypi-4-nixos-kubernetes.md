@@ -193,8 +193,6 @@ in {
     };
   };
 }
-
-
 ```
 
 Just like before, run `nixos-rebuild boot; reboot` to apply the config.

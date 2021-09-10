@@ -85,10 +85,6 @@
           <li><a href="/about">About</a></li>
         
       
-        
-          <li><a href="/cv">CV</a></li>
-        
-      
     
   </ul>
 
@@ -96,10 +92,6 @@
     
       
         <li><a href="/about">About</a></li>
-      
-    
-      
-        <li><a href="/cv">CV</a></li>
       
     
   </ul>
@@ -307,8 +299,6 @@ in {
     };
   };
 }
-
-
 </code></pre><p>Just like before, run <code>nixos-rebuild boot; reboot</code> to apply the config.</p>
 <h2 id="interacting-with-your-cluster-from-your-local-machine">Interacting with your cluster from your local machine</h2>
 <p>You&rsquo;ll need to add your cluster&rsquo;s config to your <code>~/.kube/config</code> file to be able to talk to it from your local machine. I haven&rsquo;t found a great way to do this yet, but here&rsquo;s the method I used. Please <a href="https://github.com/nateinaction/n8.gay/issues">open an issue or pr</a> if you have a better way.</p>
@@ -328,6 +318,13 @@ in {
             <hr />
           </div>
           <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/blog/2021/09/nixos-nextdns-pihole-replacement/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Replacing Pihole with NixOS and NextDNS</span>
+                </a>
+              </span>
             
             
               <span class="button next">
