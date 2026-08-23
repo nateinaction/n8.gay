@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{/*
+    A page whose whole job is to be held up in front of someone else's camera.
+    The code sits on its own white plate rather than the site's dark background:
+    the SVG carries a white quiet zone anyway, and a light plate makes the phone
+    raise screen brightness, which is what actually makes a screen-displayed code
+    scan at an angle.
+  */}}
+  <div class="qr-page">
+    <div class="qr-page__plate">
+      <img
+        class="qr-page__code"
+        src="{{ "qr.svg" | absURL }}"
+        alt="QR code linking to n8.gay"
+        width="370"
+        height="370"
+      >
+    </div>
+    <p class="qr-page__url">n8.gay</p>
+    <p class="qr-page__hint">Point a camera at the code.</p>
+  </div>
+{{ end }}

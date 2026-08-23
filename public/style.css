@@ -123,3 +123,43 @@
         flex: 1;
     }
 }
+
+/* ---------------------------------------------------------------------------
+   /qr — the code, held up for someone else to scan (layouts/_default/qr.html)
+   --------------------------------------------------------------------------- */
+
+.qr-page {
+    text-align: center;
+    padding: 1rem 0 2rem;
+}
+
+.qr-page__plate {
+    display: inline-block;
+    background: #fff;
+    border-radius: 10px;
+    /* The SVG already carries a 4-module quiet zone; this is breathing room
+       against the dark page, not the quiet zone itself. */
+    padding: 1rem;
+    line-height: 0;
+}
+
+.qr-page__code {
+    display: block;
+    width: 100%;
+    max-width: 370px;
+    height: auto;
+}
+
+.qr-page__url {
+    margin: 1.4rem 0 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.01em;
+}
+
+.qr-page__hint {
+    margin: 0.3rem 0 0;
+    font-size: 0.95rem;
+    color: #7c7d86;
+}

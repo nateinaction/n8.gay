@@ -13,9 +13,16 @@
     {
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
-          # Hugo in nixpkgs is the extended build, which the vendored
-          # hello-friend theme needs for its SCSS pipeline.
-          packages = with pkgs; [ hugo ];
+          packages = with pkgs; [
+            hugo
+
+            # QR code for the site, plus the tools to prove it decodes to what
+            # we think it does. See README: a QR nobody can scan is worse than
+            # no QR, and you cannot tell by looking at it.
+            qrencode
+            librsvg # rsvg-convert, to rasterize the SVG for decoding
+            zbar # zbarimg, to read the code back
+          ];
 
           shellHook = ''
             echo "$(hugo version | cut -d'+' -f1) — n8.gay"

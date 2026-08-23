@@ -242,5 +242,25 @@ weather balloon mission.&lt;/p&gt;
         </description>
     </item>
     
+    <item>
+      <title>QR code</title>
+      <link>https://n8.gay/qr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/qr/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          QR code linking to n8.gay.
+          
+        
+        </description>
+    </item>
+    
   </channel>
 </rss>
