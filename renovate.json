@@ -1,5 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": [
+    "themes/hello-friend is a vendored 2021 snapshot of an upstream theme.",
+    "Its package.json and yarn.lock drive a webpack build that produced the",
+    "already-committed static/assets/*, and nothing here ever runs them: no",
+    "layout uses Hugo Pipes, so Hugo copies the prebuilt CSS and JS verbatim.",
+    "Renovate cannot regenerate those artifacts, so npm PRs would churn the",
+    "lockfile without changing a byte of what deploys, while surfacing inert",
+    "webpack-4 CVEs as though they were live. Hence ignorePaths."
+  ],
   "extends": [
     "config:recommended",
     ":dependencyDashboard"
@@ -12,6 +21,9 @@
   "prConcurrentLimit": 5,
   "labels": [
     "dependencies"
+  ],
+  "ignorePaths": [
+    "themes/**"
   ],
   "lockFileMaintenance": {
     "enabled": true,
