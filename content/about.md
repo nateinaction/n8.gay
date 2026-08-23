@@ -13,9 +13,8 @@ engineers who build it.
 
 His current focus is making flight software verification fast enough to keep up with the
 hardware. Nate built the hardware-in-the-loop continuous integration pipeline that
-deploys and exercises every commit on a real engineering satellite before it can merge —
-1,917 commits gated on hardware over the past year, and 132 hours of hardware test
-runtime. That work is the subject of *[F Prime to Flight
+deploys and exercises every commit on a real engineering satellite before it can merge.
+That work is the subject of *[F Prime to Flight
 Faster](https://txst-space-lab.github.io/fprime-to-flight-faster/)*, presented at
 SmallSat 2026. All of the hardware and software involved is open source.
 
