@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":dependencyDashboard"
+  ],
+  "timezone": "Etc/UTC",
+  "schedule": [
+    "before 6am on monday"
+  ],
+  "prHourlyLimit": 2,
+  "prConcurrentLimit": 5,
+  "labels": [
+    "dependencies"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "before 6am on monday"
+    ],
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "description": "Hugo comes from the flake, and public/ is committed rather than built on deploy, so a toolchain bump cannot break the live site on its own. Group it into one PR a week.",
+      "matchManagers": [
+        "nix"
+      ],
+      "groupName": "toolchain",
+      "automerge": true
+    }
+  ]
+}

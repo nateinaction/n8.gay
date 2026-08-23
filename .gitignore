@@ -1,0 +1,4 @@
+# Hugo's build lock, created during `hugo` / `hugo server`.
+.hugo_build.lock
+
+.DS_Store

@@ -1,9 +1,18 @@
-baseURL = "/"
+baseURL = "https://n8.gay/"
 title = "Nate Gay"
 theme = "hello-friend"
-paginate = 5
+
+# `paginate` was removed in Hugo 0.128.
+[pagination]
+  pagerSize = 5
 
 [params]
+  copyright = "Nate Gay"
+
+  [params.author]
+    name = "Nate Gay"
+    email = "email@n8.gay"
+
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "blog"
@@ -25,17 +34,23 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Nate Gay"
-    subtitle = ""
-    keywords = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+
+    # These are read by the theme as .Site.Params.*, so they have to live under
+    # [languages.en.params]. Modern Hugo no longer promotes arbitrary keys set
+    # directly on [languages.en] into Params — they silently resolve to empty,
+    # which is how the meta description ended up blank.
+    [languages.en.params]
+      subtitle = "Flight software engineer"
+      keywords = "flight software, F Prime, FPrime, CubeSat, hardware-in-the-loop, PROVES, Texas State University, small satellites, Kubernetes, Golang"
+      menuMore = "Show more"
+      writtenBy = "Written by"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      minuteReadingTime = "min read"
+      dateFormatSingle = "2006-01-02"
+      dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
       logoText = "Nate Gay"

@@ -8,3 +8,118 @@
     width: 2.5rem;
     padding-right: 0.5rem;
 }
+
+/* ---------------------------------------------------------------------------
+   Contact card (homepage, layouts/index.html)
+
+   Sized for a phone first: nearly everyone arrives here from a camera pointed
+   at a QR code, so the primary action has to be reachable without scrolling
+   and comfortably tappable.
+   --------------------------------------------------------------------------- */
+
+.card__name {
+    margin: 0 0 0.4rem;
+    font-size: 2.2rem;
+    line-height: 1.15;
+    color: #fff;
+}
+
+.card__role {
+    margin: 0 0 1.6rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #a9a9b3;
+}
+
+.card__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.4rem;
+}
+
+.btn {
+    display: block;
+    padding: 0.9rem 1.25rem;
+    border: 1px solid #4a4b50;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    /* Comfortably above the 44px minimum touch target. */
+    min-height: 44px;
+    box-sizing: border-box;
+}
+
+.btn:hover,
+.btn:focus {
+    border-color: #fe5186;
+    color: #fff;
+}
+
+.btn--primary {
+    background: #fe5186;
+    border-color: #fe5186;
+    color: #16171a;
+    font-weight: 700;
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+    background: #ff6d99;
+    border-color: #ff6d99;
+    color: #16171a;
+}
+
+.card__links {
+    margin: 0 0 2.2rem;
+    font-size: 1rem;
+    line-height: 1.9;
+    word-break: break-word;
+}
+
+.card__sep {
+    margin: 0 0.4rem;
+    color: #4a4b50;
+}
+
+.card__content {
+    border-top: 1px solid #3a3b40;
+    padding-top: 1.6rem;
+}
+
+.card__content h3 {
+    margin: 0 0 0.6rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #7c7d86;
+}
+
+.card__content h3:not(:first-child) {
+    margin-top: 2.2rem;
+}
+
+.card__content p {
+    margin: 0 0 1rem;
+    line-height: 1.7;
+}
+
+.card__content strong {
+    color: #fff;
+}
+
+/* Wider screens: the two actions sit side by side rather than stacked. */
+@media (min-width: 480px) {
+    .card__actions {
+        flex-direction: row;
+    }
+
+    .btn {
+        flex: 1;
+    }
+}

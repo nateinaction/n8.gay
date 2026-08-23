@@ -5,11 +5,15 @@
     
     
     
-    <link>/tags/</link>
+    <link>https://n8.gay/tags/</link>
     <description>Recent content in Tags on Nate Gay</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>email@n8.gay (Nate Gay)</managingEditor>
+    <webMaster>email@n8.gay (Nate Gay)</webMaster>
+    <copyright>Nate Gay</copyright>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://n8.gay/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

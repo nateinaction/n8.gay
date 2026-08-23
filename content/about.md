@@ -2,12 +2,35 @@
 title: "About Nate Gay"
 ---
 
-Nate is a Senior Software Engineer at WP Engine, where he builds technology that connects people together. As a board member for [Age Equity Alliance](https://ageequityalliance.org/), he cares deeply about issues of equity and strives to empower organizations to value and create diverse teams.
+Nate is the Flight Software Team Lead for [PROVES](https://proveskit.com) at [Texas
+State University's Space Lab](https://txstspacelab.org), where he leads development of
+[F´ (F Prime)](https://github.com/nasa/fprime)-based flight software for a five-satellite
+CubeSat program — three spacecraft on orbit today and two scheduled for launch in
+October 2026. He defines the software architecture, coding standards, and verification
+strategy for the mission, and mentors the undergraduate engineers who build it.
 
-At work, Nate builds scalable systems using kubernetes and golang. He has lead three winning hackathon teams and has been recognized as a WP Engine Culture Award winner for contributions in leadership and technology.
+His current focus is making flight software verification fast enough to keep up with the
+hardware. Nate built the hardware-in-the-loop continuous integration pipeline that
+deploys and exercises every commit on a real engineering satellite before it can merge —
+1,917 commits gated on hardware over the past year, and 132 hours of hardware test
+runtime. That work is the subject of *[F Prime to Flight
+Faster](https://txst-space-lab.github.io/fprime-to-flight-faster/)*, presented at
+SmallSat 2026. All of the hardware and software involved is open source.
 
-Nate graduated with honors in 2016 from NC State with BAs in Political Science and Spanish Literature. While there, he served as President of Voluntarios Ahora and the Volunteer Coordinator for the Mexican Consulate General where he trained and managed 40 multilingual student volunteers. He also served as President of the Commercial Space Club during which time he secured a research grant for cubesat development and organized training for 15 engineering students to become FCC certified in radio and satellite communication.
+By day, Nate is a Sr. Staff Software Engineer at WP Engine, where he designs distributed
+platforms on Kubernetes and Crossplane that let product teams provision and operate
+infrastructure safely. Over nine years there he has built Kubernetes operators in Golang,
+led cost-optimization work that cut cloud spend by $12M annually, and led four winning
+hackathon teams.
 
-Nate was awarded Outstanding Service to the Spanish Program, the L.I. Felner Scholarship, and the Achievement for Excellence in Community Service from the NC State College of Foreign Languages and Literatures. He was also awarded with Valued Service to the Mexican Consulate distinction.
+Nate holds an FCC Technician Class amateur radio license (KK4PDM) and operates ground
+stations for orbital and high-altitude missions. He is completing a BS in Mathematics at
+Texas State, and previously graduated cum laude from NC State with BAs in Political
+Science and Spanish Literature. While there he served as President of the Commercial
+Space Club, securing a research grant for CubeSat development and organizing radio and
+satellite communication training for 15 engineering students, and as Volunteer
+Coordinator for the Mexican Consulate General, where he trained and managed 40
+multilingual student volunteers.
 
-Nate lives in Austin, Texas with his partner and their three-legged rescued min-pin Chippy. He loves everything SpaceX.
+Nate lives in San Marcos, Texas with his partner and their three-legged rescued min-pin,
+Chippy.

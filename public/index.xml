@@ -5,20 +5,24 @@
     
     
     
-    <link>/</link>
+    <link>https://n8.gay/</link>
     <description>Recent content on Nate Gay</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>email@n8.gay (Nate Gay)</managingEditor>
+    <webMaster>email@n8.gay (Nate Gay)</webMaster>
+    <copyright>Nate Gay</copyright>
     <lastBuildDate>Fri, 10 Sep 2021 12:41:19 -0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://n8.gay/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Replacing Pihole with NixOS and NextDNS</title>
-      <link>/blog/2021/09/nixos-nextdns-pihole-replacement/</link>
+      <link>https://n8.gay/blog/2021/09/nixos-nextdns-pihole-replacement/</link>
       <pubDate>Fri, 10 Sep 2021 12:41:19 -0600</pubDate>
-      
-      <guid>/blog/2021/09/nixos-nextdns-pihole-replacement/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/blog/2021/09/nixos-nextdns-pihole-replacement/</guid>
       <description>
         
           
@@ -35,10 +39,10 @@
     
     <item>
       <title>Setting up Kubernetes on a Raspberry Pi 4 with NixOS</title>
-      <link>/blog/2021/08/raspberrypi-4-nixos-kubernetes/</link>
+      <link>https://n8.gay/blog/2021/08/raspberrypi-4-nixos-kubernetes/</link>
       <pubDate>Sun, 22 Aug 2021 12:41:19 -0600</pubDate>
-      
-      <guid>/blog/2021/08/raspberrypi-4-nixos-kubernetes/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/blog/2021/08/raspberrypi-4-nixos-kubernetes/</guid>
       <description>
         
           
@@ -55,10 +59,10 @@
     
     <item>
       <title>City of Austin Quick District Lookup</title>
-      <link>/blog/2021/08/city-of-austin-quick-district-lookup/</link>
+      <link>https://n8.gay/blog/2021/08/city-of-austin-quick-district-lookup/</link>
       <pubDate>Sun, 15 Aug 2021 14:41:19 -0600</pubDate>
-      
-      <guid>/blog/2021/08/city-of-austin-quick-district-lookup/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/blog/2021/08/city-of-austin-quick-district-lookup/</guid>
       <description>
         
           
@@ -75,10 +79,10 @@
     
     <item>
       <title>Reducing Water Use</title>
-      <link>/blog/2021/08/hue-control-water-reduction/</link>
+      <link>https://n8.gay/blog/2021/08/hue-control-water-reduction/</link>
       <pubDate>Sun, 15 Aug 2021 04:41:19 -0600</pubDate>
-      
-      <guid>/blog/2021/08/hue-control-water-reduction/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/blog/2021/08/hue-control-water-reduction/</guid>
       <description>
         
           
@@ -95,10 +99,10 @@
     
     <item>
       <title>Won&#39;t You Be My Neighbor?</title>
-      <link>/blog/2021/07/wont-you-be-my-neighbor-hack/</link>
+      <link>https://n8.gay/blog/2021/07/wont-you-be-my-neighbor-hack/</link>
       <pubDate>Sat, 17 Jul 2021 14:41:19 -0600</pubDate>
-      
-      <guid>/blog/2021/07/wont-you-be-my-neighbor-hack/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/blog/2021/07/wont-you-be-my-neighbor-hack/</guid>
       <description>
         
           
@@ -115,10 +119,10 @@
     
     <item>
       <title>Age Equity Alliance 100 in 100</title>
-      <link>/blog/2021/03/age-equity-alliance-100-in-100/</link>
+      <link>https://n8.gay/blog/2021/03/age-equity-alliance-100-in-100/</link>
       <pubDate>Sat, 06 Mar 2021 13:41:19 -0600</pubDate>
-      
-      <guid>/blog/2021/03/age-equity-alliance-100-in-100/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/blog/2021/03/age-equity-alliance-100-in-100/</guid>
       <description>
         
           
@@ -135,10 +139,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>/blog/2021/03/hello-world/</link>
+      <link>https://n8.gay/blog/2021/03/hello-world/</link>
       <pubDate>Sat, 06 Mar 2021 04:41:19 -0600</pubDate>
-      
-      <guid>/blog/2021/03/hello-world/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/blog/2021/03/hello-world/</guid>
       <description>
         
           
@@ -155,10 +159,10 @@
     
     <item>
       <title>About Nate Gay</title>
-      <link>/about/</link>
+      <link>https://n8.gay/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/about/</guid>
       <description>
         
           
@@ -167,8 +171,19 @@
         
         
         
-          Nate is a Senior Software Engineer at WP Engine, where he builds technology that connects people together. As a board member for Age Equity Alliance, he cares deeply about issues of equity and strives to empower organizations to value and create diverse teams.
-At work, Nate builds scalable systems using kubernetes and golang. He has lead three winning hackathon teams and has been recognized as a WP Engine Culture Award winner for contributions in leadership and technology.
+          &lt;p&gt;Nate is the Flight Software Team Lead for &lt;a href=&#34;https://proveskit.com&#34;&gt;PROVES&lt;/a&gt; at &lt;a href=&#34;https://txstspacelab.org&#34;&gt;Texas
+State University&amp;rsquo;s Space Lab&lt;/a&gt;, where he leads development of
+&lt;a href=&#34;https://github.com/nasa/fprime&#34;&gt;F´ (F Prime)&lt;/a&gt;-based flight software for a five-satellite
+CubeSat program — three spacecraft on orbit today and two scheduled for launch in
+October 2026. He defines the software architecture, coding standards, and verification
+strategy for the mission, and mentors the undergraduate engineers who build it.&lt;/p&gt;
+&lt;p&gt;His current focus is making flight software verification fast enough to keep up with the
+hardware. Nate built the hardware-in-the-loop continuous integration pipeline that
+deploys and exercises every commit on a real engineering satellite before it can merge —
+1,917 commits gated on hardware over the past year, and 132 hours of hardware test
+runtime. That work is the subject of &lt;em&gt;&lt;a href=&#34;https://txst-space-lab.github.io/fprime-to-flight-faster/&#34;&gt;F Prime to Flight
+Faster&lt;/a&gt;&lt;/em&gt;, presented at
+SmallSat 2026. All of the hardware and software involved is open source.&lt;/p&gt;
           
         
         </description>
@@ -176,10 +191,10 @@ At work, Nate builds scalable systems using kubernetes and golang. He has lead t
     
     <item>
       <title>Attributions</title>
-      <link>/attributions/</link>
+      <link>https://n8.gay/attributions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/attributions/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/attributions/</guid>
       <description>
         
           
@@ -188,10 +203,10 @@ At work, Nate builds scalable systems using kubernetes and golang. He has lead t
         
         
         
-          Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a github issue.
-This site is powered by Hugo.
-The theme is based off of hello-friend by panr.
-The rocket logo was created by the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.
+          &lt;p&gt;Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a &lt;a href=&#34;https://github.com/nateinaction/n8.gay/issues&#34;&gt;github issue&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This site is powered by &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The theme is based off of &lt;a href=&#34;https://github.com/panr/hugo-theme-hello-friend&#34;&gt;hello-friend&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/panr&#34;&gt;panr&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://commons.m.wikimedia.org/wiki/File:Emojione_1F680.svg&#34;&gt;rocket logo&lt;/a&gt; was created by the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.&lt;/p&gt;
           
         
         </description>
@@ -199,10 +214,10 @@ The rocket logo was created by the emojione project and was released under Creat
     
     <item>
       <title>Nate Gay</title>
-      <link>/cv/</link>
+      <link>https://n8.gay/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/cv/</guid>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>https://n8.gay/cv/</guid>
       <description>
         
           
@@ -211,9 +226,21 @@ The rocket logo was created by the emojione project and was released under Creat
         
         
         
-          Senior Software Engineer Awards 2020 - Biggest Dreamer, Hackathon, WP Engine Lead a team that created an immensly scalable Kubernetes backed hosting platform with one million WordPress websites. Each website was fully functional and cost a fraction of a penny to operate.
-2019 - Culture Award, WP Engine For contributions in leadership and technology.
-2019 - Best in Show, Hackathon, WP Engine Lead a team that produced a browser based shell environment allowing effortless SSH access to administer customer websites.
+          &lt;h3 id=&#34;flight-software-team-lead--sr-staff-software-engineer&#34;&gt;Flight Software Team Lead · Sr. Staff Software Engineer&lt;/h3&gt;
+&lt;p&gt;Software engineer with 9+ years of experience building reliable distributed systems and
+leading technical projects. Based in San Marcos, Texas.
+&lt;a href=&#34;mailto:email@n8.gay&#34;&gt;email@n8.gay&lt;/a&gt; ·
+&lt;a href=&#34;https://github.com/nateinaction&#34;&gt;github.com/nateinaction&lt;/a&gt; ·
+&lt;a href=&#34;https://linkedin.com/in/nate-gay&#34;&gt;linkedin.com/in/nate-gay&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;experience&#34;&gt;Experience&lt;/h3&gt;
+&lt;h4 id=&#34;2023-present---flight-software-team-lead-texas-state-university&#34;&gt;2023-Present - Flight Software Team Lead, Texas State University&lt;/h4&gt;
+&lt;p&gt;Lead F´ (F Prime)-based flight software for the five-satellite PROVES mission, with three
+spacecraft on orbit and two scheduled for launch in October 2026. Define software
+architecture, coding standards, and verification strategy for mission-critical
+components, telemetry handling, and hardware-in-the-loop continuous integration. Mentor
+undergraduate engineers across development, code review, integration, and test
+infrastructure. Developed and tested a radio research payload flown on a high-altitude
+weather balloon mission.&lt;/p&gt;
           
         
         </description>
