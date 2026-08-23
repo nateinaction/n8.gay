@@ -2,12 +2,14 @@
 title: "About Nate Gay"
 ---
 
-Nate is the Flight Software Team Lead for [PROVES](https://proveskit.com) at [Texas
-State University's Space Lab](https://txstspacelab.org), where he leads development of
-[F´ (F Prime)](https://github.com/nasa/fprime)-based flight software for a five-satellite
-CubeSat program — three spacecraft on orbit today and two scheduled for launch in
-October 2026. He defines the software architecture, coding standards, and verification
-strategy for the mission, and mentors the undergraduate engineers who build it.
+Nate is the Flight Software Team Lead at [Texas State University's Space
+Lab](https://txstspacelab.org), a contributor to [PROVES](https://proveskit.com) — the
+Open Source Space Foundation's open-source CubeSat program. He leads the Texas State team
+building [F´ (F Prime)](https://github.com/nasa/fprime)-based flight software for the
+five-satellite PROVES program, which has three spacecraft on orbit today and two
+scheduled for launch in October 2026. He defines the software architecture, coding
+standards, and verification strategy his team works to, and mentors the undergraduate
+engineers who build it.
 
 His current focus is making flight software verification fast enough to keep up with the
 hardware. Nate built the hardware-in-the-loop continuous integration pipeline that

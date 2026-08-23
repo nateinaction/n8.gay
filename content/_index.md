@@ -17,6 +17,7 @@ commit-to-verdict**. All the hardware and software is open source.
 
 ### Elsewhere
 
-I build flight software for the [PROVES](https://proveskit.com) CubeSat program at
-[Texas State](https://txstspacelab.org), and distributed platforms on Kubernetes at
-WP Engine. More on the [about page](/about), or the older [writing](/blog).
+I lead the flight software team at the [Texas State Space Lab](https://txstspacelab.org),
+a contributor to [PROVES](https://proveskit.com) — the Open Source Space Foundation's
+open-source CubeSat program — and build distributed platforms on Kubernetes at WP Engine.
+More on the [about page](/about), or the older [writing](/blog).

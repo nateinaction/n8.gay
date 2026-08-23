@@ -171,19 +171,14 @@
         
         
         
-          &lt;p&gt;Nate is the Flight Software Team Lead for &lt;a href=&#34;https://proveskit.com&#34;&gt;PROVES&lt;/a&gt; at &lt;a href=&#34;https://txstspacelab.org&#34;&gt;Texas
-State University&amp;rsquo;s Space Lab&lt;/a&gt;, where he leads development of
-&lt;a href=&#34;https://github.com/nasa/fprime&#34;&gt;F´ (F Prime)&lt;/a&gt;-based flight software for a five-satellite
-CubeSat program — three spacecraft on orbit today and two scheduled for launch in
-October 2026. He defines the software architecture, coding standards, and verification
-strategy for the mission, and mentors the undergraduate engineers who build it.&lt;/p&gt;
-&lt;p&gt;His current focus is making flight software verification fast enough to keep up with the
-hardware. Nate built the hardware-in-the-loop continuous integration pipeline that
-deploys and exercises every commit on a real engineering satellite before it can merge —
-1,917 commits gated on hardware over the past year, and 132 hours of hardware test
-runtime. That work is the subject of &lt;em&gt;&lt;a href=&#34;https://txst-space-lab.github.io/fprime-to-flight-faster/&#34;&gt;F Prime to Flight
-Faster&lt;/a&gt;&lt;/em&gt;, presented at
-SmallSat 2026. All of the hardware and software involved is open source.&lt;/p&gt;
+          &lt;p&gt;Nate is the Flight Software Team Lead at &lt;a href=&#34;https://txstspacelab.org&#34;&gt;Texas State University&amp;rsquo;s Space
+Lab&lt;/a&gt;, a contributor to &lt;a href=&#34;https://proveskit.com&#34;&gt;PROVES&lt;/a&gt; — the
+Open Source Space Foundation&amp;rsquo;s open-source CubeSat program. He leads the Texas State team
+building &lt;a href=&#34;https://github.com/nasa/fprime&#34;&gt;F´ (F Prime)&lt;/a&gt;-based flight software for the
+five-satellite PROVES program, which has three spacecraft on orbit today and two
+scheduled for launch in October 2026. He defines the software architecture, coding
+standards, and verification strategy his team works to, and mentors the undergraduate
+engineers who build it.&lt;/p&gt;
           
         
         </description>
@@ -234,7 +229,8 @@ leading technical projects. Based in San Marcos, Texas.
 &lt;a href=&#34;https://linkedin.com/in/nate-gay&#34;&gt;linkedin.com/in/nate-gay&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;experience&#34;&gt;Experience&lt;/h3&gt;
 &lt;h4 id=&#34;2023-present---flight-software-team-lead-texas-state-university&#34;&gt;2023-Present - Flight Software Team Lead, Texas State University&lt;/h4&gt;
-&lt;p&gt;Lead F´ (F Prime)-based flight software for the five-satellite PROVES mission, with three
+&lt;p&gt;Lead the Texas State flight software team contributing F´ (F Prime)-based development to
+the five-satellite PROVES program, an Open Source Space Foundation project, with three
 spacecraft on orbit and two scheduled for launch in October 2026. Define software
 architecture, coding standards, and verification strategy for mission-critical
 components, telemetry handling, and hardware-in-the-loop continuous integration. Mentor

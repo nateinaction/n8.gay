@@ -13,7 +13,8 @@ leading technical projects. Based in San Marcos, Texas.
 ### Experience
 
 #### 2023-Present - Flight Software Team Lead, Texas State University
-Lead F´ (F Prime)-based flight software for the five-satellite PROVES mission, with three
+Lead the Texas State flight software team contributing F´ (F Prime)-based development to
+the five-satellite PROVES program, an Open Source Space Foundation project, with three
 spacecraft on orbit and two scheduled for launch in October 2026. Define software
 architecture, coding standards, and verification strategy for mission-critical
 components, telemetry handling, and hardware-in-the-loop continuous integration. Mentor
