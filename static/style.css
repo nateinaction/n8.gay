@@ -4,6 +4,12 @@
     padding-right: 0;
 }
 
+body.dark-theme {
+    /* Theme default (#73747b) is 3.08:1 on this background, below the 4.5:1
+       AA minimum for normal text. This holds ~5.2:1. */
+    --color-secondary: #9a9ba3;
+}
+
 .logo img {
     width: 2.5rem;
     padding-right: 0.5rem;
@@ -61,17 +67,18 @@
 }
 
 .btn--primary {
-    background: #fe5186;
-    border-color: #fe5186;
-    color: #16171a;
+    /* LinkedIn brand blue, since this button is the "Connect on LinkedIn" CTA. */
+    background: #0a66c2;
+    border-color: #0a66c2;
+    color: #fff;
     font-weight: 700;
 }
 
 .btn--primary:hover,
 .btn--primary:focus {
-    background: #ff6d99;
-    border-color: #ff6d99;
-    color: #16171a;
+    background: #004182;
+    border-color: #004182;
+    color: #fff;
 }
 
 .card__links {
