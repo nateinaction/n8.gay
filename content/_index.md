@@ -18,5 +18,5 @@ if anyone wants to see it.
 
 I lead the flight software team at the [Texas State Space Lab](https://txstspacelab.org),
 a contributor to [PROVES](https://proveskit.com), the Open Source Space Foundation's
-open-source CubeSat program, and build distributed platforms on Kubernetes at WP Engine.
+open-source CubeSat program, and build distributed platforms on Kubernetes at [WP Engine](https://wpengine.com/).
 More on the [about page](/about), or the older [writing](/blog).
