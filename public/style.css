@@ -8,6 +8,12 @@ body.dark-theme {
     /* Theme default (#73747b) is 3.08:1 on this background, below the 4.5:1
        AA minimum for normal text. This holds ~5.2:1. */
     --color-secondary: #9a9ba3;
+
+    /* Darker page background, shifted down the same amount as the theme
+       default so header/card/code surfaces stay layered the same way. */
+    --background: #1a1b1e;
+    --background-secondary: #2c2e33;
+    --header: #16171a;
 }
 
 .logo img {
