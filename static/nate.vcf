@@ -13,7 +13,7 @@ item2.X-ABLabel:GitHub
 item3.URL:https://txstspacelab.org/
 item3.X-ABLabel:TXST Space Lab
 item4.URL:https://txst-space-lab.github.io/fprime-to-flight-faster/
-item4.X-ABLabel:SmallSat 2026 Poster
+item4.X-ABLabel:F Prime to Flight Faster (SmallSat 2026)
 ADR;TYPE=WORK:;;;San Marcos;TX;;USA
-NOTE:Met at SmallSat 2026. Leads the flight software team at the Texas State Space Lab, a contributor to the Open Source Space Foundation's PROVES open-source CubeSat kit: https://proveskit.com - also Sr. Staff Software Engineer at WP Engine.
+NOTE:Leads the flight software team at the Texas State Space Lab, a contributor to the Open Source Space Foundation's PROVES open-source CubeSat kit: https://proveskit.com - also Sr. Staff Software Engineer at WP Engine.
 END:VCARD

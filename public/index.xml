@@ -5,7 +5,7 @@
     
     
     
-    <link>https://n8.gay/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Nate Gay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -14,15 +14,15 @@
     <copyright>Nate Gay</copyright>
     <lastBuildDate>Fri, 10 Sep 2021 12:41:19 -0600</lastBuildDate>
     
-	<atom:link href="https://n8.gay/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Replacing Pihole with NixOS and NextDNS</title>
-      <link>https://n8.gay/blog/2021/09/nixos-nextdns-pihole-replacement/</link>
+      <link>http://localhost:1313/blog/2021/09/nixos-nextdns-pihole-replacement/</link>
       <pubDate>Fri, 10 Sep 2021 12:41:19 -0600</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/blog/2021/09/nixos-nextdns-pihole-replacement/</guid>
+      <guid>http://localhost:1313/blog/2021/09/nixos-nextdns-pihole-replacement/</guid>
       <description>
         
           
@@ -39,10 +39,10 @@
     
     <item>
       <title>Setting up Kubernetes on a Raspberry Pi 4 with NixOS</title>
-      <link>https://n8.gay/blog/2021/08/raspberrypi-4-nixos-kubernetes/</link>
+      <link>http://localhost:1313/blog/2021/08/raspberrypi-4-nixos-kubernetes/</link>
       <pubDate>Sun, 22 Aug 2021 12:41:19 -0600</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/blog/2021/08/raspberrypi-4-nixos-kubernetes/</guid>
+      <guid>http://localhost:1313/blog/2021/08/raspberrypi-4-nixos-kubernetes/</guid>
       <description>
         
           
@@ -59,10 +59,10 @@
     
     <item>
       <title>City of Austin Quick District Lookup</title>
-      <link>https://n8.gay/blog/2021/08/city-of-austin-quick-district-lookup/</link>
+      <link>http://localhost:1313/blog/2021/08/city-of-austin-quick-district-lookup/</link>
       <pubDate>Sun, 15 Aug 2021 14:41:19 -0600</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/blog/2021/08/city-of-austin-quick-district-lookup/</guid>
+      <guid>http://localhost:1313/blog/2021/08/city-of-austin-quick-district-lookup/</guid>
       <description>
         
           
@@ -79,10 +79,10 @@
     
     <item>
       <title>Reducing Water Use</title>
-      <link>https://n8.gay/blog/2021/08/hue-control-water-reduction/</link>
+      <link>http://localhost:1313/blog/2021/08/hue-control-water-reduction/</link>
       <pubDate>Sun, 15 Aug 2021 04:41:19 -0600</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/blog/2021/08/hue-control-water-reduction/</guid>
+      <guid>http://localhost:1313/blog/2021/08/hue-control-water-reduction/</guid>
       <description>
         
           
@@ -99,10 +99,10 @@
     
     <item>
       <title>Won&#39;t You Be My Neighbor?</title>
-      <link>https://n8.gay/blog/2021/07/wont-you-be-my-neighbor-hack/</link>
+      <link>http://localhost:1313/blog/2021/07/wont-you-be-my-neighbor-hack/</link>
       <pubDate>Sat, 17 Jul 2021 14:41:19 -0600</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/blog/2021/07/wont-you-be-my-neighbor-hack/</guid>
+      <guid>http://localhost:1313/blog/2021/07/wont-you-be-my-neighbor-hack/</guid>
       <description>
         
           
@@ -119,10 +119,10 @@
     
     <item>
       <title>Age Equity Alliance 100 in 100</title>
-      <link>https://n8.gay/blog/2021/03/age-equity-alliance-100-in-100/</link>
+      <link>http://localhost:1313/blog/2021/03/age-equity-alliance-100-in-100/</link>
       <pubDate>Sat, 06 Mar 2021 13:41:19 -0600</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/blog/2021/03/age-equity-alliance-100-in-100/</guid>
+      <guid>http://localhost:1313/blog/2021/03/age-equity-alliance-100-in-100/</guid>
       <description>
         
           
@@ -139,10 +139,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>https://n8.gay/blog/2021/03/hello-world/</link>
+      <link>http://localhost:1313/blog/2021/03/hello-world/</link>
       <pubDate>Sat, 06 Mar 2021 04:41:19 -0600</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/blog/2021/03/hello-world/</guid>
+      <guid>http://localhost:1313/blog/2021/03/hello-world/</guid>
       <description>
         
           
@@ -159,10 +159,10 @@
     
     <item>
       <title>About Nate Gay</title>
-      <link>https://n8.gay/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>
         
           
@@ -186,10 +186,10 @@ engineers who build it.&lt;/p&gt;
     
     <item>
       <title>Attributions</title>
-      <link>https://n8.gay/attributions/</link>
+      <link>http://localhost:1313/attributions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/attributions/</guid>
+      <guid>http://localhost:1313/attributions/</guid>
       <description>
         
           
@@ -201,7 +201,7 @@ engineers who build it.&lt;/p&gt;
           &lt;p&gt;Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a &lt;a href=&#34;https://github.com/nateinaction/n8.gay/issues&#34;&gt;github issue&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This site is powered by &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The theme is based off of &lt;a href=&#34;https://github.com/panr/hugo-theme-hello-friend&#34;&gt;hello-friend&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/panr&#34;&gt;panr&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://commons.m.wikimedia.org/wiki/File:Emojione_1F680.svg&#34;&gt;rocket logo&lt;/a&gt; was created by the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://commons.wikimedia.org/wiki/File:Emojione_1F6F0.svg&#34;&gt;satellite logo&lt;/a&gt; is based on art from the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.&lt;/p&gt;
           
         
         </description>
@@ -209,10 +209,10 @@ engineers who build it.&lt;/p&gt;
     
     <item>
       <title>Nate Gay</title>
-      <link>https://n8.gay/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/cv/</guid>
+      <guid>http://localhost:1313/cv/</guid>
       <description>
         
           
@@ -244,10 +244,10 @@ weather balloon mission.&lt;/p&gt;
     
     <item>
       <title>QR code</title>
-      <link>https://n8.gay/qr/</link>
+      <link>http://localhost:1313/qr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>email@n8.gay (Nate Gay)</author>
-      <guid>https://n8.gay/qr/</guid>
+      <guid>http://localhost:1313/qr/</guid>
       <description>
         
           
@@ -257,6 +257,33 @@ weather balloon mission.&lt;/p&gt;
         
         
           QR code linking to n8.gay.
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Thoughts on enums</title>
+      <link>http://localhost:1313/blog/2025/03/thoughs-on-enums/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>email@n8.gay (Nate Gay)</author>
+      <guid>http://localhost:1313/blog/2025/03/thoughs-on-enums/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          &lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=43193160&#34;&gt;https://news.ycombinator.com/item?id=43193160&lt;/a&gt;
+&lt;a href=&#34;https://protobuf.dev/programming-guides/enum/&#34;&gt;https://protobuf.dev/programming-guides/enum/&lt;/a&gt;
+&lt;a href=&#34;https://protobuf.dev/best-practices/dos-donts/#unspecified-enum&#34;&gt;https://protobuf.dev/best-practices/dos-donts/#unspecified-enum&lt;/a&gt;
+&lt;a href=&#34;https://buf.build/docs/breaking/rules/?h=enum#enum_value_no_delete_unless_number_reserved&#34;&gt;https://buf.build/docs/breaking/rules/?h=enum#enum_value_no_delete_unless_number_reserved&lt;/a&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=XTXPKbPcvl4&#34;&gt;https://www.youtube.com/watch?v=XTXPKbPcvl4&lt;/a&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=XTXPKbPcvl4&#34;&gt;https://www.youtube.com/watch?v=XTXPKbPcvl4&lt;/a&gt;
+&lt;a href=&#34;https://google.aip.dev/126&#34;&gt;https://google.aip.dev/126&lt;/a&gt;
+&lt;a href=&#34;https://google.aip.dev/216&#34;&gt;https://google.aip.dev/216&lt;/a&gt;&lt;/p&gt;
           
         
         </description>

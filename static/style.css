@@ -4,6 +4,10 @@
     padding-right: 0;
 }
 
+:root {
+    --accent: #2337c6;
+}
+
 body.dark-theme {
     /* Theme default (#73747b) is 3.08:1 on this background, below the 4.5:1
        AA minimum for normal text. This holds ~5.2:1. */
@@ -14,6 +18,15 @@ body.dark-theme {
     --background: #1a1b1e;
     --background-secondary: #2c2e33;
     --header: #16171a;
+
+    /* The base #2337c6 is ~2:1 against this background, below the 3:1 floor
+       for UI components and well under 4.5:1 for text. Same hue, lightened
+       until it clears both. */
+    --accent: #6b7ff0;
+}
+
+.logo__cursor {
+    background: var(--accent);
 }
 
 .logo img {
@@ -68,22 +81,7 @@ body.dark-theme {
 
 .btn:hover,
 .btn:focus {
-    border-color: #fe5186;
-    color: #fff;
-}
-
-.btn--primary {
-    /* LinkedIn brand blue, since this button is the "Connect on LinkedIn" CTA. */
-    background: #0a66c2;
-    border-color: #0a66c2;
-    color: #fff;
-    font-weight: 700;
-}
-
-.btn--primary:hover,
-.btn--primary:focus {
-    background: #004182;
-    border-color: #004182;
+    border-color: var(--accent);
     color: #fff;
 }
 
@@ -92,6 +90,11 @@ body.dark-theme {
     font-size: 1rem;
     line-height: 1.9;
     word-break: break-word;
+}
+
+.card__links a,
+.card__content a {
+    color: var(--accent);
 }
 
 .card__sep {
@@ -110,7 +113,7 @@ body.dark-theme {
     font-weight: 700;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: #7c7d86;
+    color: var(--accent);
 }
 
 .card__content h3:not(:first-child) {
@@ -124,17 +127,6 @@ body.dark-theme {
 
 .card__content strong {
     color: #fff;
-}
-
-/* Wider screens: the two actions sit side by side rather than stacked. */
-@media (min-width: 480px) {
-    .card__actions {
-        flex-direction: row;
-    }
-
-    .btn {
-        flex: 1;
-    }
 }
 
 /* ---------------------------------------------------------------------------

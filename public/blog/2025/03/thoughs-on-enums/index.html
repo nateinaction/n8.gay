@@ -3,7 +3,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
       <title>
-        Attributions ::
+        Thoughts on enums ::
         Nate Gay — Flight software engineer
       </title>
     
@@ -11,10 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a github issue.
-This site is powered by Hugo.
-The theme is based off of hello-friend by panr.
-The satellite logo is based on art from the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.
+  content="https://news.ycombinator.com/item?id=43193160 https://protobuf.dev/programming-guides/enum/ https://protobuf.dev/best-practices/dos-donts/#unspecified-enum https://buf.build/docs/breaking/rules/?h=enum#enum_value_no_delete_unless_number_reserved https://www.youtube.com/watch?v=XTXPKbPcvl4 https://www.youtube.com/watch?v=XTXPKbPcvl4 https://google.aip.dev/126 https://google.aip.dev/216
 "
 />
 <meta
@@ -22,7 +19,7 @@ The satellite logo is based on art from the emojione project and was released un
   content="flight software, F Prime, FPrime, CubeSat, hardware-in-the-loop, PROVES, Texas State University, small satellites, Kubernetes, Golang"
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="http://localhost:1313/attributions/" />
+<link rel="canonical" href="http://localhost:1313/blog/2025/03/thoughs-on-enums/" />
 
 
 
@@ -46,23 +43,18 @@ The satellite logo is based on art from the emojione project and was released un
 
 
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Attributions">
-	<meta name="twitter:description" content="Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a github issue.
-This site is powered by Hugo.
-The theme is based off of hello-friend by panr.
-The satellite logo is based on art from the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.">
+	<meta name="twitter:title" content="Thoughts on enums">
+	<meta name="twitter:description" content="https://news.ycombinator.com/item?id=43193160 https://protobuf.dev/programming-guides/enum/ https://protobuf.dev/best-practices/dos-donts/#unspecified-enum https://buf.build/docs/breaking/rules/?h=enum#enum_value_no_delete_unless_number_reserved https://www.youtube.com/watch?v=XTXPKbPcvl4 https://www.youtube.com/watch?v=XTXPKbPcvl4 https://google.aip.dev/126 https://google.aip.dev/216">
 
 
 
-<meta property="og:url" content="http://localhost:1313/attributions/">
+<meta property="og:url" content="http://localhost:1313/blog/2025/03/thoughs-on-enums/">
 	<meta property="og:site_name" content="Nate Gay">
-	<meta property="og:title" content="Attributions">
-	<meta property="og:description" content="Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a github issue.
-This site is powered by Hugo.
-The theme is based off of hello-friend by panr.
-The satellite logo is based on art from the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.">
+	<meta property="og:title" content="Thoughts on enums">
+	<meta property="og:description" content="https://news.ycombinator.com/item?id=43193160 https://protobuf.dev/programming-guides/enum/ https://protobuf.dev/best-practices/dos-donts/#unspecified-enum https://buf.build/docs/breaking/rules/?h=enum#enum_value_no_delete_unless_number_reserved https://www.youtube.com/watch?v=XTXPKbPcvl4 https://www.youtube.com/watch?v=XTXPKbPcvl4 https://google.aip.dev/126 https://google.aip.dev/216">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
 
 
 
@@ -133,7 +125,7 @@ The satellite logo is based on art from the emojione project and was released un
   
 
   <div class="post">
-    <h1 class="post-title">Attributions</h1>
+    <h1 class="post-title">Thoughts on enums</h1>
     <div class="post-meta">
       
 
@@ -149,10 +141,14 @@ The satellite logo is based on art from the emojione project and was released un
 
     <div class="post-content">
       
-      <p>Thank you to all the creators, friends and family who make this site possible. If I have underattributed or misattributed please let me know by opening a <a href="https://github.com/nateinaction/n8.gay/issues">github issue</a>.</p>
-<p>This site is powered by <a href="https://gohugo.io">Hugo</a>.</p>
-<p>The theme is based off of <a href="https://github.com/panr/hugo-theme-hello-friend">hello-friend</a> by <a href="https://twitter.com/panr">panr</a>.</p>
-<p>The <a href="https://commons.wikimedia.org/wiki/File:Emojione_1F6F0.svg">satellite logo</a> is based on art from the emojione project and was released under Creative Commons Attribution-Share Alike 4.0 International license.</p>
+      <p><a href="https://news.ycombinator.com/item?id=43193160">https://news.ycombinator.com/item?id=43193160</a>
+<a href="https://protobuf.dev/programming-guides/enum/">https://protobuf.dev/programming-guides/enum/</a>
+<a href="https://protobuf.dev/best-practices/dos-donts/#unspecified-enum">https://protobuf.dev/best-practices/dos-donts/#unspecified-enum</a>
+<a href="https://buf.build/docs/breaking/rules/?h=enum#enum_value_no_delete_unless_number_reserved">https://buf.build/docs/breaking/rules/?h=enum#enum_value_no_delete_unless_number_reserved</a>
+<a href="https://www.youtube.com/watch?v=XTXPKbPcvl4">https://www.youtube.com/watch?v=XTXPKbPcvl4</a>
+<a href="https://www.youtube.com/watch?v=XTXPKbPcvl4">https://www.youtube.com/watch?v=XTXPKbPcvl4</a>
+<a href="https://google.aip.dev/126">https://google.aip.dev/126</a>
+<a href="https://google.aip.dev/216">https://google.aip.dev/216</a></p>
 
     </div>
     

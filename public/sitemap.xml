@@ -2,43 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://n8.gay/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2021-09-10T12:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2021-09-10T12:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/blog/2021/09/nixos-nextdns-pihole-replacement/</loc>
+    <loc>http://localhost:1313/blog/2021/09/nixos-nextdns-pihole-replacement/</loc>
     <lastmod>2021-09-10T12:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/blog/2021/08/raspberrypi-4-nixos-kubernetes/</loc>
+    <loc>http://localhost:1313/blog/2021/08/raspberrypi-4-nixos-kubernetes/</loc>
     <lastmod>2021-08-22T12:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/blog/2021/08/city-of-austin-quick-district-lookup/</loc>
+    <loc>http://localhost:1313/blog/2021/08/city-of-austin-quick-district-lookup/</loc>
     <lastmod>2021-08-15T14:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/blog/2021/08/hue-control-water-reduction/</loc>
+    <loc>http://localhost:1313/blog/2021/08/hue-control-water-reduction/</loc>
     <lastmod>2021-08-15T04:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/blog/2021/07/wont-you-be-my-neighbor-hack/</loc>
+    <loc>http://localhost:1313/blog/2021/07/wont-you-be-my-neighbor-hack/</loc>
     <lastmod>2021-07-17T14:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/blog/2021/03/age-equity-alliance-100-in-100/</loc>
+    <loc>http://localhost:1313/blog/2021/03/age-equity-alliance-100-in-100/</loc>
     <lastmod>2021-03-06T13:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/blog/2021/03/hello-world/</loc>
+    <loc>http://localhost:1313/blog/2021/03/hello-world/</loc>
     <lastmod>2021-03-06T04:41:19-06:00</lastmod>
   </url><url>
-    <loc>https://n8.gay/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://n8.gay/attributions/</loc>
+    <loc>http://localhost:1313/attributions/</loc>
   </url><url>
-    <loc>https://n8.gay/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://n8.gay/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
   </url><url>
-    <loc>https://n8.gay/qr/</loc>
+    <loc>http://localhost:1313/qr/</loc>
   </url><url>
-    <loc>https://n8.gay/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/blog/2025/03/thoughs-on-enums/</loc>
   </url>
 </urlset>

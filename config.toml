@@ -55,7 +55,7 @@ theme = "hello-friend"
     [languages.en.params.logo]
       logoText = "Nate Gay"
       logoHomeLink = "/"
-      alt = "Rocket"
+      alt = "Satellite"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
